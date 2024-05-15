@@ -1,0 +1,19 @@
+{
+  "name": "hono-app",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build src/index.ts --minify --compile --sourcemap --outfile ./build/app",
+    "start": "./build/app"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.3.7"
+  }
+}
