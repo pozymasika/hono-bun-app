@@ -3,9 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run --hot src/index.ts",
-    "build": "bun build src/index.ts --minify --compile --sourcemap --outfile ./build/app",
-    "start": "./app"
+    "dev": "bun run --hot src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
