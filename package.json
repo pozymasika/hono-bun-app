@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "bun run --hot src/index.ts",
     "build": "bun build src/index.ts --minify --compile --sourcemap --outfile ./build/app",
-    "start": "./app"
+    "start": "./build/app"
   },
   "devDependencies": {
     "@types/bun": "latest"
